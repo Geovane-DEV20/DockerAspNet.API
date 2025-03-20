@@ -8,7 +8,7 @@ Este projeto demonstra como criar e publicar uma imagem Docker de um aplicativo 
 
 Use o comando abaixo para construir a imagem Docker a partir do Dockerfile localizado no diretório `DockerAspNet.API`:
 
-docker build -t docker-aspnet-yb -f DockerAspNet.API/Dockerfile .
+docker build -t docker-aspnet-case -f DockerAspNet.API/Dockerfile .
 ### 2. Executar o contêiner Docker
 
 Após construir a imagem, você pode executar um contêiner a partir dela usando o comando abaixo. Este comando mapeia a porta 5000 do host para a porta 80 do contêiner:
